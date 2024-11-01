@@ -1,5 +1,5 @@
 def phone (num):
-    print(num, end ='')
+    print(num, end='')
 phone (8)
 phone (8)
 phone (0)
