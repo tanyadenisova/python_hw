@@ -29,9 +29,9 @@ def test_fill_shop():
     add_cart.cart()
     checkout_info = CheckoutInfo(driver)
     checkout_info.checkout(
-        first_name="Анастасия",
-        last_name="Ковалева",
-        code="666671"
+        first_name="Татьяна",
+        last_name="Денисова",
+        code="603123"
     )
     assert_total = AssertTotal(driver)
     assert_total.total()
